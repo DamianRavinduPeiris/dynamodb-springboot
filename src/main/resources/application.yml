@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springboot-dynamodb
+aws:
+  dynamodb:
+    access-key: fakeMyKeyId
+    secret-key: fakeSecretAccessKey
+    endpoint: http://localhost:8000
+    region: us-west-2
+server:
+  port: 9090
